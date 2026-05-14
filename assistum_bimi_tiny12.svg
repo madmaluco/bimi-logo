@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG Tiny 1.2//EN"
+ "http://www.w3.org/Graphics/SVG/1.2/DTD/svg12-tiny.dtd">
+<svg version="1.2"
+     baseProfile="tiny"
+     xmlns="http://www.w3.org/2000/svg"
+     width="512"
+     height="512"
+     viewBox="0 0 512 512">
+
+  <defs>
+    <linearGradient id="gradBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00D4FF"/>
+      <stop offset="100%" stop-color="#0047FF"/>
+    </linearGradient>
+
+    <linearGradient id="gradTeal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3FFFD7"/>
+      <stop offset="100%" stop-color="#008B8B"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Left wing -->
+  <path d="M120 380 L250 90 Q265 70 285 100 L180 300 Z"
+        fill="url(#gradBlue)" />
+
+  <!-- Right wing -->
+  <path d="M285 180 L390 180 L420 370 L310 370
+           Q285 355 275 325 Q255 270 210 250 Z"
+        fill="url(#gradTeal)" />
+
+  <!-- Center tech beam -->
+  <path d="M120 380 L285 180 L350 180 L170 315 Z"
+        fill="#0033AA" />
+
+  <!-- Circuit circle -->
+  <circle cx="335" cy="235" r="20" fill="#FFFFFF"/>
+  <circle cx="335" cy="235" r="10" fill="#0033AA"/>
+
+  <!-- Pixel blocks -->
+  <rect x="380" y="125" width="18" height="18" fill="#00D4FF"/>
+  <rect x="410" y="95" width="22" height="22" fill="#00D4FF"/>
+  <rect x="395" y="155" width="26" height="26" fill="#25E7FF"/>
+
+</svg>
